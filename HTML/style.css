@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  height: 100vh; /* Full height of the screen */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #f0f0f0; /* Optional: just for better look */
+  font-family: Arial, sans-serif;
+}
+
+/* content style */
+.content {
+  text-align: center;
+}
+
+.content img {
+  width: 150px; /* Adjust image size */
+  height: auto;
+  border-radius: 50%; /* Makes your image circular */
+  margin-bottom: 20px;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* navbar style */
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
